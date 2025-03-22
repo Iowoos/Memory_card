@@ -109,7 +109,7 @@ def check_answer():
 window = QWidget()
 window.setLayout(layout_card)
 window.setWindowTitle('Memo Card')
-ask('Государственный язык Бразилии', 'Португальский', 'Бразильский', 'Испанский', 'Итальянский')
+ask('Самый быстрый транспорт', 'поезд', 'машина', 'самолет', 'мотоцикл')
 btn_OK.clicked.connect(check_answer) 
 
 window.resize(400, 300)
